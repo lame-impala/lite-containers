@@ -2,6 +2,6 @@
 
 module Lite
   module Containers
-    VERSION = '0.0.5'
+    class Error < StandardError; end
   end
 end

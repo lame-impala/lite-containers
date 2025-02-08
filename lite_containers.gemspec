@@ -10,8 +10,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Tomas Milsimer']
   spec.email         = ['tomas.milsimer@protonmail.com']
 
-  spec.summary       = 'A collection of containers: sorted array, heap, AVL tree and priority queue'
-  spec.homepage      = 'https://github.com/lame-impala/lite_containers'
+  spec.summary       = 'A collection of containers: heap, sorted array, AVL tree'
+  spec.homepage      = 'https://github.com/lame-impala/lite-containers'
+  spec.metadata['homepage_uri'] = spec.homepage
+
   spec.license       = 'MIT'
 
   spec.files         = Dir.chdir(File.expand_path(__dir__)) do
