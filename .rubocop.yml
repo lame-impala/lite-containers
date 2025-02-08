@@ -1,0 +1,72 @@
+require:
+  - rubocop-rspec
+
+AllCops:
+  NewCops: enable
+
+Gemspec/RequireMFA:
+  Enabled: false
+
+Metrics/ClassLength:
+  Exclude:
+    - 'spec/**/*.rb'
+
+Metrics/AbcSize:
+  Exclude:
+    - 'spec/**/*.rb'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*.rb'
+
+Metrics/CyclomaticComplexity:
+  Exclude:
+    - 'spec/**/*.rb'
+
+Metrics/MethodLength:
+  Max: 20
+
+Metrics/ModuleLength:
+  Exclude:
+    - 'spec/**/*.rb'
+
+Metrics/PerceivedComplexity:
+  Exclude:
+    - 'spec/**/*.rb'
+
+Naming/MethodParameterName:
+  Enabled: false
+
+Naming/VariableNumber:
+  Exclude:
+    - 'spec/**/*.rb'
+
+Lint/ShadowingOuterLocalVariable:
+  Enabled: false
+
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: start_of_line
+
+RSpec/ContextWording:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Enabled: false
+
+RSpec/IndexedLet:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+
+Style/ArgumentsForwarding:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/HashSyntax:
+  Enabled: false
